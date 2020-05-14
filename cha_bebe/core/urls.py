@@ -6,8 +6,8 @@ from . import views
 app_name = 'core'
 urlpatterns = [
     path('', views.home, name='home'),
-    path('galeria', views.galeria, name='galeria'),
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    path('sobre', views.sobre, name='sobre')
+]
 
 
 

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="row">
+      <div class="six columns"> <img src="{{ presente.imagem.url }}" alt=""> </div>
+      <div class="six columns">
+        <div class="panel">
+          <h3>{{ presente.titulo }}</h3>
+          <p style="font-style: italic; font-family: Georgia">{{ presente.descricao }}</p>
+          <form name="product_list" action="#">
+            <label style="font-weight:bold">Como presentear</label>
+            <select name="forma_presente">
+              <option value="1">Presente</option>
+              <option value="2">Cota parcial</option>
+            </select>
+
+            <input name="unit_price" id="unit_price" value="340.00" type="hidden">
+            <input value="271" name="sales_price" id="total_item" type="hidden">
+            <p style="font-size: 24px">Valor: <span id="grandTotal">{{ presente.valor }}</span></p>
+          </form>
+        </div>
+        <!-- end panel -->
+      </div>
+    </div>
+{% endblock %}

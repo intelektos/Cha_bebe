@@ -32,16 +32,11 @@
     <div class="row">
       <div class="nine columns" style="margin-bottom: 10px">
         <ul id="menu-header" class="nav-bar horizontal">
-          <li><a href="{% url 'core:home' %}">Home</a></li>
-          <li class="has-flyout"> <a href="#">Pages</a><a href="#" class="flyout-toggle"></a>
-            <ul class="flyout">
-              <li class="has-flyout"><a href="products-page.html">Products Page</a></li>
-              <li class="has-flyout"><a href="product-single.html">Product Single</a></li>
-              <li class="has-flyout"><a href="contact.html">Contact Page</a></li>
-            </ul>
-          </li>
-          <li ><a href="{% url 'core:galeria' %}">Galeria de fotos</a></li>
-        </ul>
+          <li><a href="{% url 'core:home' %}">Início</a></li>
+          <li><a href="{% url 'core:sobre' %}">Sobre</a></li>
+          <li> <a href="{% url 'presente:presente' %}">Presentes</a></li>
+          <li ><a href="{% url 'galeria:index' %}">Galeria de fotos</a></li>
+          </ul>
         <script>$('ul#menu-header').nav-bar();</script>
         <div style="clear:both"></div>
       </div>

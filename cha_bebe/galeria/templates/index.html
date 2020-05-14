@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Albuns de fotografias</h1>
+    {% for album in albuns %}
+        <div class='box photo col2'> <a href="{{ album.get_absolute_url }}"><img src="{{ album.capa.url }}" alt=""></a>
+            <h4 > {{ album }} </h4>
+            <p style='text-align:center; margin-bottom:12px'> <a href="{{ album.get_absolute_url }}" class='button small round'>Ver Fotos &#187;</a> </p>
+      </div>
+    {% endfor %}
+
+{% endblock %}

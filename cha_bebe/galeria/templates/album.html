@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <div id="container" style="width:99.5%; background: none; box-shadow: none; margin: 0.5% auto">
+        <!-- photo -->
+        {% for imagem in imagens %}
+            {% if imagem.thumbnail %}
+                <div class='box photo col2'>
+                    <a href="{{ imagem.get_absolute_url }}">
+                        <img src="{{ imagem.thumbnail.url }}" alt=""/>
+                    </a>
+                </div>
+            {% else %}
+                <img src="{% static 'images/img_thumb.png' %}" alt="" />
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endblock %}

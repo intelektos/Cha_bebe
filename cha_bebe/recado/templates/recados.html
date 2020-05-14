@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Recados</h1>
+    {% for recado in recadoss %}
+        {{ recado.mesagem }}
+    {% endfor %}
+
+{% endblock %}
