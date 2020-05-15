@@ -7,4 +7,8 @@ class Recado(models.Model):
     email = models.EmailField('E-mail')
     mensagem = models.TextField('Mensagem')
     aprovado = models.BooleanField(default=False)
-    data_inclusao = models.DateTimeField(default=datetime.now())
+    data_inclusao = models.DateTimeField(auto_now_add=True)
+
+    @property
+    def nome_completo(self):
+        return '%s %s' % (self.nome, self.sobrenome)

@@ -2,34 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0ebfa7f-ba26-4a71-b45a-241797463b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cha_bebe/core/templates/sobre.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/galeria/templates/album.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/galeria/templates/imagem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/galeria/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/galeria/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/presente/templates/detalhe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/presente/templates/presente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/presente/templates/teste.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/presente/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/recado/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/recado/templates/recados.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/recado/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/utils/signals_comuns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cha_bebe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cha_bebe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cha_bebe/core/mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cha_bebe/recado/templates/novo_recado.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cha_bebe/recado/templates/salvo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cha_bebe/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cha_bebe/core/static/images/prod_thumb.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cha_bebe/core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/core/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cha_bebe/core/templates/galeria.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cha_bebe/core/templatetags/photo_tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cha_bebe/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cha_bebe/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cha_bebe/presente/templates/detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/presente/templates/detalhe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cha_bebe/recado/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/recado/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cha_bebe/recado/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/recado/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cha_bebe/recado/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/recado/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cha_bebe/recado/templates/recados.html" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/recado/templates/recados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cha_bebe/recado/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/recado/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cha_bebe/recado/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/recado/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cha_bebe/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cha_bebe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/LagoCuritiba.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,68 +25,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cha_bebe/core/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cha_bebe/core/templates/sobre.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cha_bebe/core/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cha_bebe/core/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cha_bebe/recado/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="102">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../simplemooc/simplemooc/simplemooc/courses/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cha_bebe/recado/templates/novo_recado.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -108,20 +58,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cha_bebe/recado/templates/recados.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="276">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/cha_bebe/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="1937">
+              <caret line="142" column="1" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cha_bebe/recado/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
               <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/templates/album.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cha_bebe/core/static/stylesheets/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="150" selection-start-line="150" selection-end-line="150" />
             </state>
           </provider>
         </entry>
@@ -129,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cha_bebe/recado/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+            <state relative-caret-position="221">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -139,12 +119,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cha_bebe/recado/forms.py">
+        <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state relative-caret-position="293">
+              <caret line="40" column="38" selection-start-line="40" selection-end-line="40" selection-end-column="38" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#68#92#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,6 +143,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>MEDIA_FOTOS</find>
+      <find>box photo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,8 +165,6 @@
         <option value="$PROJECT_DIR$/cha_bebe/galeria/templates/album.html" />
         <option value="$PROJECT_DIR$/cha_bebe/presente/templates/presentes.html" />
         <option value="$PROJECT_DIR$/cha_bebe/galeria/urls.py" />
-        <option value="$PROJECT_DIR$/cha_bebe/urls.py" />
-        <option value="$PROJECT_DIR$/cha_bebe/settings.py" />
         <option value="$PROJECT_DIR$/cha_bebe/presente/admin.py" />
         <option value="$PROJECT_DIR$/cha_bebe/presente/templates/index.html" />
         <option value="$PROJECT_DIR$/cha_bebe/presente/templates/teste.html" />
@@ -193,20 +172,27 @@
         <option value="$PROJECT_DIR$/cha_bebe/presente/templates/presente.html" />
         <option value="$PROJECT_DIR$/cha_bebe/presente/views.py" />
         <option value="$PROJECT_DIR$/cha_bebe/presente/models.py" />
-        <option value="$PROJECT_DIR$/cha_bebe/presente/templates/detalhe.html" />
         <option value="$PROJECT_DIR$/cha_bebe/galeria/views.py" />
         <option value="$PROJECT_DIR$/cha_bebe/galeria/models.py" />
         <option value="$PROJECT_DIR$/cha_bebe/galeria/admin.py" />
         <option value="$PROJECT_DIR$/cha_bebe/galeria/templates/index.html" />
-        <option value="$PROJECT_DIR$/cha_bebe/recado/urls.py" />
-        <option value="$PROJECT_DIR$/cha_bebe/recado/models.py" />
-        <option value="$PROJECT_DIR$/cha_bebe/recado/views.py" />
-        <option value="$PROJECT_DIR$/cha_bebe/recado/templates/recados.html" />
-        <option value="$PROJECT_DIR$/cha_bebe/recado/forms.py" />
-        <option value="$PROJECT_DIR$/cha_bebe/core/templates/base.html" />
         <option value="$PROJECT_DIR$/cha_bebe/core/templates/sobre.html" />
         <option value="$PROJECT_DIR$/cha_bebe/core/urls.py" />
         <option value="$PROJECT_DIR$/cha_bebe/core/views.py" />
+        <option value="$PROJECT_DIR$/cha_bebe/core/mail.py" />
+        <option value="$PROJECT_DIR$/cha_bebe/recado/forms.py" />
+        <option value="$PROJECT_DIR$/cha_bebe/settings.py" />
+        <option value="$PROJECT_DIR$/cha_bebe/urls.py" />
+        <option value="$PROJECT_DIR$/cha_bebe/core/templates/base.html" />
+        <option value="$PROJECT_DIR$/cha_bebe/presente/templates/detalhe.html" />
+        <option value="$PROJECT_DIR$/cha_bebe/recado/urls.py" />
+        <option value="$PROJECT_DIR$/cha_bebe/recado/templates/salvo.html" />
+        <option value="$PROJECT_DIR$/cha_bebe/recado/templates/novo_recado.html" />
+        <option value="$PROJECT_DIR$/cha_bebe/core/static/stylesheets/app.css" />
+        <option value="$PROJECT_DIR$/cha_bebe/recado/models.py" />
+        <option value="$PROJECT_DIR$/cha_bebe/recado/admin.py" />
+        <option value="$PROJECT_DIR$/cha_bebe/recado/templates/recados.html" />
+        <option value="$PROJECT_DIR$/cha_bebe/recado/views.py" />
       </list>
     </option>
   </component>
@@ -240,20 +226,26 @@
               <item name="cha_bebe" type="b2602c69:ProjectViewProjectNode" />
               <item name="cha_bebe" type="462c0819:PsiDirectoryNode" />
               <item name="cha_bebe" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="galeria" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cha_bebe" type="b2602c69:ProjectViewProjectNode" />
               <item name="cha_bebe" type="462c0819:PsiDirectoryNode" />
               <item name="cha_bebe" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="presente" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cha_bebe" type="b2602c69:ProjectViewProjectNode" />
               <item name="cha_bebe" type="462c0819:PsiDirectoryNode" />
               <item name="cha_bebe" type="462c0819:PsiDirectoryNode" />
               <item name="recado" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cha_bebe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cha_bebe" type="462c0819:PsiDirectoryNode" />
+              <item name="cha_bebe" type="462c0819:PsiDirectoryNode" />
+              <item name="recado" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cha_bebe" type="b2602c69:ProjectViewProjectNode" />
@@ -364,13 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/core/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cha_bebe/presente/templates/presentes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -378,37 +363,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/presente/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#68#92#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,18 +394,6 @@
           <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="e#1#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/presente/templates/detalhe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,56 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#68#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/templates/album.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -560,47 +456,6 @@
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/core/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/templates/recados.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/core/templates/sobre.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -618,6 +473,203 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/core/templates/sobre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../simplemooc/simplemooc/simplemooc/core/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/core/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/core/mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/presente/templates/detalhe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/core/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/core/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/templates/salvo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/templates/novo_recado.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/templates/album.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/core/static/stylesheets/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/core/static/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1937">
+          <caret line="142" column="1" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="40" column="38" selection-start-line="40" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="e#68#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/presente/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+          <folding>
+            <element signature="e#68#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../simplemooc/simplemooc/simplemooc/courses/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/templates/recados.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/recado/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

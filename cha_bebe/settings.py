@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'cha_bebe.core',
     'cha_bebe.galeria',
     'cha_bebe.presente',
+    'cha_bebe.recado',
 ]
 
 MIDDLEWARE = [
@@ -125,5 +126,21 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
+#E-mail
+#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'Nome <josuecalves@gmail.com>'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'josuecalves@gmail.com'
+EMAIL_HOST_PASSWORD = 'jca@7482'
+EMAIL_PORT = 587
 
+CONTACT_EMAIL = 'contato@simplecoo.com'
+
+#Auth
+#LOGIN_URL = 'accounts:login'
+#LOGIN_REDIRECT_URL = 'core:home'
+#LOGOUT_URL = 'accounts:logout'
+#AUTH_USER_MODEL = 'accounts.User'
 

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <h1>Deixe seu recado</h1>
+    <div class="row">
+        <div class="twelve columns">
+            <div class="panel callout">
+                <form action="{{ recado }}" class="forms-sample" method = 'POST' enctype="multipart/form-data">
+                {% csrf_token %}
+                    {% for field in form %}
+                    <div class="form-group">
+                        {{ field.errors }}
+                        <label><strong>{{ field.label_tag }}</strong></label>
+                        {{ field }}
+                    </div>
+                    {% endfor %}
+
+                    <button type="submit" class="button round">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

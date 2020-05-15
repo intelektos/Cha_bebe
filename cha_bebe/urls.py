@@ -8,6 +8,7 @@ urlpatterns = [
     path('', include('cha_bebe.core.urls',namespace="core")),
     path('galeria', include('cha_bebe.galeria.urls', namespace='galeria')),
     path('presente', include('cha_bebe.presente.urls', namespace='presente')),
+    path('recado', include('cha_bebe.recado.urls', namespace='recado')),
     path('admin/', admin.site.urls),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

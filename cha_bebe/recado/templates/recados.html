@@ -1,9 +1,21 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block content %}
     <h1>Recados</h1>
-    {% for recado in recadoss %}
-        {{ recado.mesagem }}
-    {% endfor %}
+    <p>
+
+        <a href="{% url 'recado:novo_recado'%}" class="button round">Incluir
+            <i class="mdi mdi-file-check btn-icon-append"></i>
+        </a>
+    </p>
+
+        {% for recado in recados %}
+            <div class="box photo">
+                <h4>{{ recado.nome_completo }}</h4>
+                <p><h5> {{ recado.mensagem }} </h5></p>
+
+            </div>
+
+        {% endfor %}
 
 {% endblock %}
