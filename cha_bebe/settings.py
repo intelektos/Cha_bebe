@@ -15,9 +15,9 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
+SITE_NAME = 'Chá de Bebê da Ester'
+META_KEYWORDS = 'Chá de Bebê, fraldas, maria tereza, josué, ester'
+META_DESCRIPTION = 'Transmissão do chá de bebê e canal para escolha de presentes e interação com o evento'
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '!l+m6dnoh-%2cot_4b8#b=7&_m0shqohj^&o7@t0j@bgf*ke58'
@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Upon deployment, change to True
+ENABLE_SSL = False
 
 # Application definition
 
@@ -41,6 +43,8 @@ INSTALLED_APPS = [
     'cha_bebe.galeria',
     'cha_bebe.presente',
     'cha_bebe.recado',
+    'cha_bebe.pagamento',
+    'cha_bebe.carrinho'
 ]
 
 MIDDLEWARE = [
@@ -125,6 +129,8 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+
 
 #E-mail
 #EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
