@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0ebfa7f-ba26-4a71-b45a-241797463b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cha_bebe/carrinho/carrinho.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/carrinho/templates/carrinho.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/carrinho/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/pagamento/mercado_pago.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/presente/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cha_bebe/utils/context_processors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cha_bebe/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cha_bebe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cha_bebe/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/cha_bebe/carrinho/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="15" />
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="15" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -49,9 +41,21 @@
         <entry file="file://$PROJECT_DIR$/cha_bebe/carrinho/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cha_bebe/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="154" column="4" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="4" />
+              <folding>
+                <element signature="e#309#318#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cha_bebe/carrinho/templates/carrinho.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -91,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="34" />
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="34" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -115,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/cha_bebe/presente/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -188,7 +192,6 @@
         <option value="$PROJECT_DIR$/cha_bebe/recado/views.py" />
         <option value="$PROJECT_DIR$/cha_bebe/carrinho/models.py" />
         <option value="$PROJECT_DIR$/cha_bebe/utils/context_processors.py" />
-        <option value="$PROJECT_DIR$/cha_bebe/settings.py" />
         <option value="$PROJECT_DIR$/cha_bebe/carrinho/carrinho.py" />
         <option value="$PROJECT_DIR$/cha_bebe/pagamento/mercado_pago.py" />
         <option value="$PROJECT_DIR$/cha_bebe/presente/forms.py" />
@@ -196,14 +199,15 @@
         <option value="$PROJECT_DIR$/cha_bebe/carrinho/urls.py" />
         <option value="$PROJECT_DIR$/cha_bebe/carrinho/views.py" />
         <option value="$PROJECT_DIR$/cha_bebe/carrinho/templates/carrinho.html" />
+        <option value="$PROJECT_DIR$/cha_bebe/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="675" />
-    <option name="y" value="-8" />
+    <option name="y" value="1" />
     <option name="width" value="699" />
-    <option name="height" value="744" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -285,9 +289,10 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="675" y="1" width="699" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21056548" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42813918" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
@@ -298,7 +303,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286385" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286385" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -584,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cha_bebe/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cha_bebe/carrinho/carrinho.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -604,7 +602,7 @@
     <entry file="file://$PROJECT_DIR$/cha_bebe/carrinho/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="15" />
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="15" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -634,7 +632,7 @@
     <entry file="file://$PROJECT_DIR$/cha_bebe/presente/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -665,7 +663,7 @@
     <entry file="file://$PROJECT_DIR$/cha_bebe/galeria/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="34" />
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
@@ -675,7 +673,7 @@
     <entry file="file://$PROJECT_DIR$/cha_bebe/carrinho/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
@@ -696,6 +694,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cha_bebe/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="154" column="4" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="4" />
+          <folding>
+            <element signature="e#309#318#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
